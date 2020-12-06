@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ogondza
+Build-Jdk: 1.8.0_162
+Extension-Name: junit-realtime-test-reporter
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: junit-realtime-test-reporter
+Implementation-Version: 0.6
+Group-Id: org.jenkins-ci.plugins
+Short-Name: junit-realtime-test-reporter
+Long-Name: JUnit Realtime Test Reporter Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/JUnit+Realtime+Test+R
+ eporter+Plugin
+Plugin-Version: 0.6
+Hudson-Version: 2.32.3
+Jenkins-Version: 2.32.3
+Plugin-Dependencies: maven-plugin:3.0;resolution:=optional,workflow-ap
+ i:2.22,workflow-step-api:2.13,workflow-support:2.14,credentials:2.1.1
+ 1,junit:1.24,mailer:1.20,matrix-project:1.4.1,scm-api:2.2.1,script-se
+ curity:1.33,structs:1.10
+Plugin-Developers: Oliver Gondža:ogondza:ogondza@gmail.com
+
